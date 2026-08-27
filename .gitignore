@@ -1,0 +1,103 @@
+# =========================================================
+# MAIL INTELLIGENCE - PRIVATE / GENERATED FILES
+# =========================================================
+
+# ---------- Environment variables ----------
+.env
+.env.*
+!.env.example
+
+backend/.env
+backend/.env.*
+!backend/.env.example
+
+frontend/.env
+frontend/.env.*
+!frontend/.env.example
+
+
+# ---------- Google / Gmail secrets ----------
+credentials.json
+token.json
+
+backend/secrets/*
+!backend/secrets/.gitkeep
+
+
+# ---------- Local mailbox / databases ----------
+*.db
+*.db-shm
+*.db-wal
+*.sqlite
+*.sqlite3
+
+backend/data/*
+!backend/data/.gitkeep
+
+
+# ---------- Python virtual environments ----------
+.venv/
+venv/
+env/
+
+backend/.venv/
+frontend/.venv/
+
+
+# ---------- Python generated files ----------
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+
+# ---------- Node / frontend dependencies ----------
+node_modules/
+frontend/node_modules/
+
+# ---------- Frontend build output ----------
+dist/
+build/
+.vite/
+coverage/
+
+# TypeScript build cache
+*.tsbuildinfo
+
+# Generated Vite config compilation
+frontend/vite.config.js
+frontend/vite.config.d.ts
+
+
+# ---------- macOS ----------
+.DS_Store
+.AppleDouble
+.LSOverride
+
+
+# ---------- Editors / IDE ----------
+.vscode/
+.idea/
+*.swp
+*.swo
+
+
+# ---------- Logs ----------
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+
+# ---------- Temporary files ----------
+*.tmp
+*.temp
+.cache/
+
+
+# ---------- Local project inspection ----------
+project_structure.txt
