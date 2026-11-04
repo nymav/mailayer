@@ -35,7 +35,7 @@ export default function App() {
         </nav>
         <div className="sidebar-note">Local-first<br/>Gmail stays source of truth.</div>
       </aside>
-      <main className="main">
+      <main className="main"><div style={{fontSize:12,padding:"10px 14px",marginBottom:20,background:"#f5f0ff",border:"1px solid #ddd0f0",borderRadius:6}}>PORTFOLIO PREVIEW · Synthetic sample data · No Gmail account connected</div>
         {page === 'dashboard' && <Dashboard/>}
         {page === 'inbox' && <InboxPage/>}
         {page === 'senders' && <Senders/>}
